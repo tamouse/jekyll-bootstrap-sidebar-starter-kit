@@ -3,4 +3,4 @@ _site
 .jekyll-metadata
 /Gemfile.lock
 /bin/
-/javascripts/bootstrap/
+/javascripts/bootstrap/_publish/
