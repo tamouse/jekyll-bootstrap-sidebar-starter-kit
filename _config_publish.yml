@@ -1,0 +1,5 @@
+# Only need to include this when building the published site
+# Run as jekyll build --config=_config.yml,_config_publish.yml
+
+url: "http://subdomain.tamouse.org" # the base hostname & protocol for your site
+destination: _publish
