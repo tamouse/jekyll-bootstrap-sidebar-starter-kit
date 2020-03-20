@@ -8,9 +8,9 @@
     </div>
 
     <div class="col-sm-4 col-xs-12">
-      <ul class="list-none">
-        {% if site.github_username %}<li><i class="fa fa-github"></i></li>{% endif %}
-        {% if site.twitter_username %}<li><i class="fa fa-twitter"></i></li>{% endif %}
+      <ul class="inline-list">
+        {% if site.github_username %}<li><a href="https://github.com/{{site.github_username}}" target="_blank" title="Github"><i class="fa fa-github"></a></i></li>{% endif %}
+        {% if site.twitter_username %}<li><a href="http://twitter.com/{{site.twitter_username}}" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>{% endif %}
       </ul>
     </div>
 

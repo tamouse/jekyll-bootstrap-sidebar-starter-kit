@@ -1,8 +1,12 @@
-guard 'livereload' do
-  watch /.*/
+group :reload do
+  guard 'livereload' do
+    watch /.*/
+  end
 end
 
-guard 'jekyll-plus', serve: true do
-  watch /.*/
-  ignore /^_site/
+group :build do
+  guard 'jekyll-plus', serve: true do
+    watch /.*/
+    ignore /^_site/
+  end
 end

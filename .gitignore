@@ -4,3 +4,4 @@ _site
 /Gemfile.lock
 /bin/
 /javascripts/bootstrap/_publish/
+_publish/
